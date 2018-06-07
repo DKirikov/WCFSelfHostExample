@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1061ba1c-b52e-417c-9c9d-84cea0dcdf12" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/selfTest" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="selfTest.xsd" MetadataType="Schema" ID="5e904d96-9ac3-41f8-9426-49d58b0d08cf" SourceId="1" SourceUrl="http://localhost:8080/selfTest?xsd=xsd0" />
+    <MetadataFile FileName="SelfService.wsdl" MetadataType="Wsdl" ID="da3b7b31-31a5-4449-afbc-d3d3c7e9fe65" SourceId="1" SourceUrl="http://localhost:8080/selfTest?wsdl" />
+    <MetadataFile FileName="selfTest1.xsd" MetadataType="Schema" ID="6caafe35-e5ac-4765-b561-d7b633ca4fc5" SourceId="1" SourceUrl="http://localhost:8080/selfTest?xsd=xsd2" />
+    <MetadataFile FileName="selfTest2.xsd" MetadataType="Schema" ID="662810ab-a39c-4b52-bfbe-6a10078ac23d" SourceId="1" SourceUrl="http://localhost:8080/selfTest?xsd=xsd1" />
+    <MetadataFile FileName="selfTest.disco" MetadataType="Disco" ID="48067a53-0b6f-40cf-acdf-0fd818c31a98" SourceId="1" SourceUrl="http://localhost:8080/selfTest?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

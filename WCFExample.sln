@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClient1", "WCFClient1\WCFClient1.csproj", "{4B0EF621-B49F-4008-B9A6-DB44EB474C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHost", "SelfHost\SelfHost.csproj", "{7866A759-6805-48B0-B0CE-1495048E1391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B0EF621-B49F-4008-B9A6-DB44EB474C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0EF621-B49F-4008-B9A6-DB44EB474C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0EF621-B49F-4008-B9A6-DB44EB474C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0EF621-B49F-4008-B9A6-DB44EB474C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7866A759-6805-48B0-B0CE-1495048E1391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7866A759-6805-48B0-B0CE-1495048E1391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7866A759-6805-48B0-B0CE-1495048E1391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7866A759-6805-48B0-B0CE-1495048E1391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
